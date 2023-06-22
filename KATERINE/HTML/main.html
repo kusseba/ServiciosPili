@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=”author” content=”Luciano”>
-    <link rel="stylesheet" href="../CSS/main_styles.css">
-
-    <link rel="stylesheet" href="css/all.min.css">
-    
+    <link rel="stylesheet" href="../CSS/styles-main.css">
+    <link rel="stylesheet" href="../CSS/CSS-ico/all.min.css">
     <title>Servicios Pili</title>
 </head>
 <body>
-    <nav class="navegacion" id="navegacion">
-        <ul class="cont_nav">
-            <li class="inicio"><a href=""><img class="logonav" src="imagenes/logonav.jpeg" alt="logo Pili"></a></li>
-            <div class="separador"></div>
-            <li class="click_nav" id="primero"><a class="link" href="">Eventos</a></li>
-            <li class="click_nav"><a class="link" href="">Referencias</a></li>
-            <li class="click_nav"><a class="link" href="">Galeria</a></li>
-            <li class="click_nav"><a class="link" href="">Contactos</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <button class="btn">Eventos</button>
+          <button class="btn">Galeria</button>
+        </div>
+        <div class="navbar-logo">
+          <h1 class="logo">Pili</h1>
+        </div>
+        <div class="navbar-right">
+          <button class="btn">Pene</button>
+          <button class="btn">Contactos</button>
+        </div>
+      </nav>
+      
     <br><br><br><br><br><br><br>
     <main>
         <section class="Introduccion" aria-label="Introduccion">
             <article> 
                 <h1 class="h1">El mejor Servicio para Eventos </h1>
             </article>
-            <article class="contenedor_sup">
-                <img class="img_principal" src="imagenes/salon.jpeg" alt="Salon Decorado" >
+            <article class="contenedor_sup" id="cont_sup">
                 <p class="texto_tam"><span class="palabra1 texto_tam"> Servicios de Eventos </span> de todo tipo de la mejor calidad </p>
                 <div class="ajuste">
                     <i class="fa-solid fa-location-dot fa-xl" style="color: #ff8000;"></i><span class="texto_tam"> Lugar de su preferencia y gusto.</span>
@@ -44,15 +45,20 @@
                     <i class="fa-solid fa-dollar-sign fa-xl "style="color: #ff8000"></i><span class="texto_tam"> Adaptado a tu bolsillo y paladar.</span>
                 </div >
             </article>
+            <article class="contenedor_sup" id="gif">
+                <img class="gif_asado" src="imagenes/asado.gif" alt="">
+            </article>
             <br><br>
             <article class="cont_presupuesto">
                 <a class="presupuesto" href="">Tipos de Presupuestos</a>
             </article>
         </section>
+        <hr color="orange">
+        <div id="nosotros_text">
+            <h2>Nosotros</h2>
+        </div>
         <section class="nosotros">
-            <article style="margin-bottom: 0.5rem;">
-                <span class="nosotros_text texto_tam">Nosotros</span>
-            </article>
+            
             <article class="nosotros_img">
                 <img class="img_comida"  src="imagenes/asadoestaca.jpg" alt="comida 1">
                 <img class="img_comida"  src="imagenes/empanadas.jpg" alt="comida 2">
@@ -68,7 +74,8 @@
                     Su evento es NUESTRA PRIORIDAD.</p>
             </article>
         </section>
-        
+        <hr color="orange
+        "> 
         <section class="eventos">
             <article class="tipos">
                 <img class="format" src="imagenes/evento_informal.png"></img>
